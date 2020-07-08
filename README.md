@@ -16,6 +16,8 @@
 
 
 ## 主板配置
+主板版本 7C82v11 更新主板BISO ：https://cn.msi.com/Motherboard/support/MAG-B460M-MORTAR#down-bios
+
 - IGD Multi-monitor 打开
 - cfg lock 关闭
 - 快速启动  关闭 ，安装完以后可以再打开
