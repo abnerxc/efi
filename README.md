@@ -19,7 +19,7 @@
 主板版本 7C82v11 更新主板BISO ：https://cn.msi.com/Motherboard/support/MAG-B460M-MORTAR#down-bios
 
 - Fast Boot：关闭
-- Secure Boot：关闭（重要）
+- Secure Boot：关闭（默认关闭的）
 - CFG lock（重要）
 - Intel SGX 如果有，关闭，默认关闭的
 - VT-x 开启
