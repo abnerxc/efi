@@ -18,11 +18,15 @@
 ## 主板配置
 主板版本 7C82v11 更新主板BISO ：https://cn.msi.com/Motherboard/support/MAG-B460M-MORTAR#down-bios
 
-- IGD Multi-monitor 打开
-- cfg lock 关闭
-- 快速启动  关闭 ，安装完以后可以再打开
-- 显存 64M
-- Above 4G decoding打开
+- Fast Boot：关闭
+- Secure Boot：关闭（重要）
+- CFG lock（重要）
+- Intel SGX 如果有，关闭
+- VT-x 开启
+- Above 4G decoding 开启（重要）
+- Hyper-Threading 开启（默认都开的）
+- EHCI/XHCI Hand-off 开启 默认都开的）
+- 显存: 64MB
 
 ## GeekBench 跑分
 ![显卡跑分](http://ww1.sinaimg.cn/large/007lnJOlgy1ggjxexjn7kj30o10f0q46.jpg)
