@@ -28,6 +28,12 @@
 - EHCI/XHCI Hand-off 开启 默认都开的）
 - 显存: 64MB
 
+# win和mac双系统时间不一致问题
+win修改注册表
+```shell
+Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
+```
+
 ## GeekBench 跑分
 ![显卡跑分](http://ww1.sinaimg.cn/large/007lnJOlgy1ggjxexjn7kj30o10f0q46.jpg)
 ![CPU跑分](http://ww1.sinaimg.cn/large/007lnJOlgy1ggjxex385fj30nr0ebwfp.jpg)
