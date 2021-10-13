@@ -22,7 +22,7 @@
 - Secure Boot：关闭（默认关闭的）
 - CFG lock 关闭（重要）
 - Intel SGX 如果有，关闭，默认关闭的
-- VT-x 开启
+- VT-x 开启（默认开启）
 - Above 4G decoding 开启（重要）
 - Hyper-Threading 开启（默认都开的）
 - EHCI/XHCI Hand-off 开启 默认都开的）
