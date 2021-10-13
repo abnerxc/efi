@@ -20,7 +20,7 @@
 
 - Fast Boot：关闭
 - Secure Boot：关闭（默认关闭的）
-- CFG lock（重要）
+- CFG lock 关闭（重要）
 - Intel SGX 如果有，关闭，默认关闭的
 - VT-x 开启
 - Above 4G decoding 开启（重要）
