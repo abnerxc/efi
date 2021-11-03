@@ -34,11 +34,12 @@ win修改注册表
 Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
 ```
 
-## 主板配置v2版本安装
+## 快捷主板配置v2版本安装
 1.  biso版本：7C82v15，F6恢复默配置，一键黑苹果D.T.M功能（微星MSI新主板专属）
 2.  进入PE用磁盘精灵选择安装磁盘删除所有分区，确认磁盘分区表类型为GPT,然后创建引导分区ESP，200M即可
 3.  U盘引导安装以后，选择磁盘工具 ，抹盘，输入磁盘名称，其他选项默认即可
 4.  进入pe,找到mac磁盘引导盘，拷贝U盘的引导文件进去，调整BISO启动项（注意这里有多项调整顺序，逐个尝试）
+5.  注意机型要配置成imac(2019),不然部分USB无法使用
 
 --- 
 
